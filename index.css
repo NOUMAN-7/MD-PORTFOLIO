@@ -72,6 +72,7 @@ body {
     line-height: var(--line-height-normal);
     background: var(--black);
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .row {
@@ -303,7 +304,7 @@ body:not(.user-is-tabbing) a:focus {
     background-color: var(--pink);
     border-radius: 50%;
     z-index: 10;
-    visibility: hidden;
+    visibility:hidden;
     transition: all .4s;
 }
 
